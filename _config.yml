@@ -18,8 +18,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "위태롭지만 견고하게"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+subtitle                 : "컴퓨터융합학부 전공생의 기술 노트"
+name                     : "Seongmuk Lim"
 description              : "Want More techniques"
 url                      : "https://zero2top.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Seongmuk Lim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "**충남대학교** 컴퓨터융합학부"
   location         : "Daejeon, South Korea"
   email            : tjdanr0502@gmail.com
   links:
