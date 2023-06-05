@@ -2,9 +2,10 @@
 layout: single
 title: "자바로 combination 구현하기"
 ---
-#자바로 combination 구현하는 방법
+# Today I Learned
+## 자바로 Combination 구현하기
 
-Combination 조합은 고등학교 수학시간에 배웠다면 모두 알고 있겠지만 알고리즘 관점에서 공부한 내용을 공유하려고 한다.
+자바로 Combination(조합)을 구현하는 법에 대해 공부해보자.
 
 ![combination](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtOLAu%2FbtqLW7y99Kz%2FgJJAu6ivbq4juqrduRKZdk%2Fimg.png)
 
