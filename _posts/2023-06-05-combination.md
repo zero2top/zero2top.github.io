@@ -5,7 +5,6 @@ title: "자바로 combination 구현하기"
 #자바로 combination 구현하는 방법
 
 Combination 조합은 고등학교 수학시간에 배웠다면 모두 알고 있겠지만 알고리즘 관점에서 공부한 내용을 공유하려고 한다.
-내용과 그림은 여기에서 참고했다.(https://st-lab.tistory.com/159#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 
 ![combination](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtOLAu%2FbtqLW7y99Kz%2FgJJAu6ivbq4juqrduRKZdk%2Fimg.png)
 
@@ -74,6 +73,9 @@ n개중 0개를 택하거나 n개중 n개를 택하는 경우의 수는 1이라�
 이 포스팅이 내가 올리는 첫 번째 포스팅이다.
 앞으로 공부한 것들을 꾸준히 올릴 예정이다.
 
+
+
+### 내용과 그림은 여기에서 참고했다.(https://st-lab.tistory.com/159#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 
 
 
