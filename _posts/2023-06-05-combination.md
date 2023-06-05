@@ -17,13 +17,14 @@ Combination 조합은 고등학교 수학시간에 배웠다면 모두 알고 �
 
 재귀형식의 factorial 메소드를 만들어서 Combination을 구할 수 있다.
 아래는 factorial 메소드와 예시로 Combination계산한 코드이다.
-**<combination 구현 방법 1>**
++ **방법 1**
 
 <script src="https://gist.github.com/zero2top/d09521b0b1b8bedb67ada501246271e7.js"></script>
 
 위의 방식은 factorial 메소드를 구현해서 combination의 공식의 분모와 분자를 각각 계산하는 방식이다.
 combination을 한번에 계산할 수 있는 방법은 없을까. 물론 있다. 
 그 방법이 **두 번째** 방법이다.
+
 그 방법을 설명하기 전에 두 가지 성질에 대해서 알고 넘어가야 한다.
 
 [성질 1]
@@ -56,7 +57,7 @@ n개중 0개를 택하거나 n개중 n개를 택하는 경우의 수는 1이라�
 
 이제 위의 두 가지의 성질을 이용해서 combination 메소드를 아래와 같이 구현할 수 있다.
 
-**<combination 구현 방법 2>**
++ **방법 2**
 
 <script src="https://gist.github.com/zero2top/51dfd388dae621b7973d3f41b6390466.js"></script>
 
@@ -65,7 +66,7 @@ n개중 0개를 택하거나 n개중 n개를 택하는 경우의 수는 1이라�
 예를 들자면  (블라블라 추가 첨삭 필요)
 
 이를 코드로 구현하면 아래와 같다.
-**<combination 구현 방법 3>**
++ **방법 3**
 
 <script src="https://gist.github.com/zero2top/70c2152f7a0eb09343896bee36488a5e.js"></script>
 
@@ -75,7 +76,7 @@ n개중 0개를 택하거나 n개중 n개를 택하는 경우의 수는 1이라�
 
 
 
-### 내용과 그림은 여기에서 참고했다.(https://st-lab.tistory.com/159#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+### 내용과 그림은 [여기](https://st-lab.tistory.com/159#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)에서 참고했다.
 
 
 
