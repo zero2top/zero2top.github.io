@@ -8,6 +8,7 @@ Combination 조합은 고등학교 수학시간에 배웠다면 모두 알고 �
 내용과 그림은 여기에서 참고했다.(https://st-lab.tistory.com/159#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 
 ![combination](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtOLAu%2FbtqLW7y99Kz%2FgJJAu6ivbq4juqrduRKZdk%2Fimg.png)
+
 우리가 알고있는 조합의 공식이다. n개중 순서상관없이 r개를 택할때의 경우의 수를 의미한다.
 그렇다면 이 조합을 어떻게 구현할 수 있을까.
 
