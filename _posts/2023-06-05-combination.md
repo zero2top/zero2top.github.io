@@ -37,7 +37,7 @@ combination을 한번에 계산할 수 있는 방법은 없을까. 물론 있다
 ![properties_1.2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdjY4V9%2FbtqLVaQIrIv%2FuZU1zCHvXUNIF1SDlsIXhk%2Fimg.png)
 
 이 표현법은 대학에 와서 처음 알게 되었다.
-알고보니 지금까지 고등학교에서 배웠던 Combination 표현법은 오히려 잘 쓰지 않는 표현법이라고 하셨다.
+알고보니 지금까지 고등학교에서 배웠던 Combination 표현법은 오히려 잘 쓰지 않는 표현법이라고 한다.
 n과 r의 이항계수를 구한다고 하면 아래와 같이 표현할 수 있다.
 
 ![properties_1.3](https://img1.daumcdn.net/thumb/R1280x0/?
@@ -60,12 +60,14 @@ n개중 0개를 택하거나 n개중 n개를 택하는 경우의 수는 1이라�
 
 + **방법 2**
 
-<script src="https://gist.github.com/zero2top/51dfd388dae621b7973d3f41b6390466.js"></script>
+<script src="https://gist.github.com/zero2top/e94bb27302f8ff990c6d558e4d8fd251.js"></script>
 
 위의 방법은 첫 번째 방법보다는 괜찮아보이지만 문제가 하나 있다.
 바로 이미 계산한 결과에 대해서 다시한번 호출을 통해 계산을 한다는 것이 문제이다.
-예를 들자면  (블라블라 추가 첨삭 필요)
+이런 중복계산을 피하기 위해서 동적계획법을 사용하겠다.
 
+배열을 생성해서 이미 계산한 결과를 배열에 저장해준다.
+그리고 이미 계산한 결과가 있다면 배열에서 저장된 값을 사용한다.
 이를 코드로 구현하면 아래와 같다.
 + **방법 3**
 
