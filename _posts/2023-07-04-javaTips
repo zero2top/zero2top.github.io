@@ -1,0 +1,33 @@
+---
+layout: single
+title: "알아두면 좋은 자바 지식"
+---
+
+# Today I Learned
+## 1. Java Coding Convention
+
++클래스명은 대문자로 시작한다.
+ex) 
+<span style='background-color:#fff5b1'>class MyClass{}</span>
+
++메소드명은 동사여야 하고 첫 글자는 소문자, 다음의 각 단어의 첫글자는 대문자를 사용한다.
+ex)
+<span style='background-color:#fff5b1'>void myMethod{}</span>
+
+
+## 2. Java Data Type
++ java 에서는 8가지의 Primitive type(기본형 타입)을 제외한 나머지는 모두 Reference type(참조형 타입)이다.
+
+Primitive type(기본형 타입): byte, short, int, long, float, double, char, boolean
+기본형 타입은 Stack에 실제값을 저장하고, 참조형 타입은 Heap에 실제값을 저장하고 실제값에 대한 주소를 Stack에 저장한다.
+
+이런 차이로 인해서 재밌는 결과가 발생한다. 아래 코드에서 확인할 수 있다.
+<script src="https://gist.github.com/zero2top/829a5b2c14058915d750410786666951.js"></script>
+이렇게 a는 기본형, b는 참조형으로 지정해서 연산을 수행했을때 a는 실제값만 매개변수로 넘겨주기 때문에 원래의 a의 값에는 변화가 없는 반면
+b는 참조형으로 실제값을 가르키는 주소를 넘겨주었기 때문에 실제값에도 영향을 미치게 된다.
+따라서 연산후 출력했을때 a는 100, b는 101롤 출력이 된다.
+
+
+
+
+
