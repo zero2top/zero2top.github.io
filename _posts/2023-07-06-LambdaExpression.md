@@ -5,7 +5,7 @@ title: "람다표현식 (Lambda Expression) + 익명메소드"
 #Today I Learned
 
 
-오늘은 <span style="background color:#87CEFE">람다표현식</span>에 대해서 알아보았다.   
+오늘은 <span style="background-color:#87CEFE">람다표현식</span>에 대해서 알아보았다.   
 람다표현식은 자바8 부터 지원되기 시작한 기능이다.   
 람다표현식에 대해 알아보기 전에 함수형 인터페이스(Functional Interface)에 대해서 알아보자.   
 함수형 인터페이스란 <span style="color: red">추상메소드가 하나뿐인</span> 인터페이스를 부르는 말이다.  
