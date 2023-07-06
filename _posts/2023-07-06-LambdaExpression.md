@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "람다표현식 (Lambda Expression) + 익명클래스, 익명메소드"
+title: "람다표현식 (Lambda Expression) + 익명메소드"
 ---
 #Today I Learned
 
