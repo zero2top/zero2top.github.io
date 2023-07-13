@@ -1,5 +1,5 @@
 ---
-layout : splash
+layout : single
 title : "데이터베이스의 필요성"
 ---
 # Today I Learned
