@@ -1,5 +1,5 @@
 ---
-layout : single
+layout : splash
 title : "데이터베이스의 필요성"
 ---
 # 데이터베이스는 왜 필요한가?
